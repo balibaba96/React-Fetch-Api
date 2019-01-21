@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,500i,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+ ::-webkit-input-placeholder {
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    opacity: 1;
+}
+
+a {
+    color: #5b8efb;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: normal;
+}
+
+.margin-center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.margin-left-right {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-fluid {
+    vertical-align: top;
+}
+
+.blank_list_gp {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-light {
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    background: transparent;
+    box-shadow: none;
+    border: solid 1px #5b8efb;
+    display: inline-block;
+    padding: 7px 15px;
+    color: #5b8efb;
+    line-height: 24px;
+    border-radius: 3px;
+}
+
+.btn-light.nxt-arrow {
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.btn-light:hover {
+    background: #5b8efb;
+    border-color: #5b8efb;
+    color: #fff;
+}
+
+.nxt-arrow::before {
+    content: "";
+    height: 2px;
+    background: #7f7f7f;
+    width: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nxt-arrow {
+    margin-left: 5px;
+    position: relative;
+    margin-right: -4px;
+}
+
+.nxt-arrow::after {
+    content: "";
+    vertical-align: middle;
+    border-top: solid 4px transparent;
+    border-bottom: solid 4px transparent;
+    border-left: solid 6px #7f7f7f;
+    border-right: solid 4px transparent;
+    display: inline-block;
+}
+
+.btn-light:hover .nxt-arrow::after {
+    border-left: solid 6px #fff;
+}
+
+.btn-light:hover .nxt-arrow::before {
+    background: #fff;
+}
